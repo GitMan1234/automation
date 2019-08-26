@@ -1,6 +1,7 @@
 package com.parasoft.parabank.testcases;
 
 import com.parasoft.parabank.base.TestBase;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.parasoft.parabank.pages.Register;
@@ -19,7 +20,7 @@ public class RegisterUser extends TestBase {
     public void testRegister(){
         System.out.println("test");
 
-        reg.register();
+        Assert.assertEquals(reg.register(),"Welcome naven1");
 
 
 
