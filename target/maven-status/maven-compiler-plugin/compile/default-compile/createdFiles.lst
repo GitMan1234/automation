@@ -1,4 +1,3 @@
-com\parasoft\parabank\testcases\RegisterUser.class
 com\parasoft\parabank\utils\utilities.class
 com\parasoft\parabank\pages\Register.class
 com\parasoft\parabank\base\TestBase.class

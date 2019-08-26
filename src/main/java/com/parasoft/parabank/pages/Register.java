@@ -25,6 +25,7 @@ public class Register extends TestBase {
     public void register(){
         regButn.click();
         firstNameField.sendKeys("navendrin");
+        System.out.println(driver.getCurrentUrl());
 
     }
 

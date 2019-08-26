@@ -17,6 +17,7 @@ public class RegisterUser extends TestBase {
 
     @Test
     public void testRegister(){
+        System.out.println("test");
 
         reg.register();
 
