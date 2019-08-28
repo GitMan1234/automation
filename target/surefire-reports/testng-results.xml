@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="9946" started-at="2019-08-27T11:44:41Z" finished-at="2019-08-27T11:44:51Z">
+  <suite name="Surefire suite" duration-ms="15704" started-at="2019-08-28T17:10:26Z" finished-at="2019-08-28T17:10:42Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="9946" started-at="2019-08-27T11:44:41Z" finished-at="2019-08-27T11:44:51Z">
+    <test name="Surefire test" duration-ms="15704" started-at="2019-08-28T17:10:26Z" finished-at="2019-08-28T17:10:42Z">
       <class name="com.parasoft.parabank.testcases.RegisterUser">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.parasoft.parabank.testcases.RegisterUser@1e643faf]" name="setup" is-config="true" duration-ms="8075" started-at="2019-08-27T11:44:41Z" finished-at="2019-08-27T11:44:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.parasoft.parabank.testcases.RegisterUser@b684286]" name="setup" is-config="true" duration-ms="12775" started-at="2019-08-28T17:10:26Z" finished-at="2019-08-28T17:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testRegister()[pri:0, instance:com.parasoft.parabank.testcases.RegisterUser@1e643faf]" name="testRegister" duration-ms="1855" started-at="2019-08-27T11:44:49Z" finished-at="2019-08-27T11:44:51Z">
+        <test-method status="PASS" signature="testRegister()[pri:0, instance:com.parasoft.parabank.testcases.RegisterUser@b684286]" name="testRegister" duration-ms="2912" started-at="2019-08-28T17:10:39Z" finished-at="2019-08-28T17:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->

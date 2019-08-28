@@ -26,6 +26,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rika\IdeaProjects\automation\src\main\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -38,7 +43,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Rika/IdeaProjects/automation/src/main/resources/TESTNG.XML">
+    <configuration name="C:/Users/Rika/IdeaProjects/automation/src/main/resources/TESTNG.XML" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TESTNG.XML" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Rika/IdeaProjects/automation/src/test/resources/TESTNG.XML" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/TESTNG.XML" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <extension name="coverage">
@@ -58,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Rika/IdeaProjects/automation/src/main/resources/TESTNG.XML" />
+        <item itemvalue="TestNG.C:/Users/Rika/IdeaProjects/automation/src/test/resources/TESTNG.XML" />
         <item itemvalue="TestNG.RegisterUser" />
       </list>
     </recent_temporary>
