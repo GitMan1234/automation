@@ -58,9 +58,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>src\main\resources\TESTNG.XML</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <includes>
+                        <include>com.parasoft.parabank.testcases.RegisterUser</include>
+                    </includes>
+
 
                 </configuration>
 

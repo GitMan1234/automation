@@ -12,7 +12,7 @@ public class RegisterUser extends TestBase {
     @BeforeClass
     public void setup(){
 
-        TestBase.initialize();
+        initialize();
         reg= new Register();
     }
 
@@ -20,6 +20,7 @@ public class RegisterUser extends TestBase {
     public void testRegister(){
         System.out.println("test");
         System.out.print(reg.register());
+        driver.quit();
 
 
 

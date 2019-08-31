@@ -4,6 +4,7 @@ import com.parasoft.parabank.utils.utilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,14 +41,18 @@ public class TestBase {
 
     }
 
-    public static void initialize() {
+    public  void initialize() {
+
+        File file = new File(
+                getClass().getClassLoader().getResource("chromedriver.exe").getFile());
+
 
         // String browserName = prop.getProperty("browser");
 
         //if (browserName.equalsIgnoreCase("chrome")) {
-
         System.setProperty
-                ("webdriver.chrome.driver", "C:\\chromedriver.exe");
+                ("webdriver.chrome.driver", file.toString());
+
         driver = new ChromeDriver();
         //}
 
