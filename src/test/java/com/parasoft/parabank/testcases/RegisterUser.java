@@ -21,6 +21,7 @@ public class RegisterUser extends TestBase {
         System.out.println("test");
         System.out.print(reg.register());
         driver.quit();
+        Assert.assertTrue(true);
 
 
 
