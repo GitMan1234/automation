@@ -51,7 +51,7 @@ public class TestBase {
 
         //if (browserName.equalsIgnoreCase("chrome")) {
         System.setProperty
-                ("webdriver.chrome.driver", "/usr/bin/chromedriver);
+                ("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         driver = new ChromeDriver();
         //}
