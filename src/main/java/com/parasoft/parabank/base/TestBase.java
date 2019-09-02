@@ -48,7 +48,7 @@ public class TestBase {
         options.addArguments("--no-sandbox"); //Bypass OS security model
         options.addArguments("--start-maximized");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
 
 
         File file = new File(
