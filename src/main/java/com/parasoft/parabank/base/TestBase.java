@@ -3,6 +3,7 @@ package com.parasoft.parabank.base;
 import com.parasoft.parabank.utils.utilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -42,6 +43,13 @@ public class TestBase {
     }
 
     public  void initialize() {
+        
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox"); //Bypass OS security model
+        options.addArguments("--start-maximized");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+
 
         File file = new File(
                 getClass().getClassLoader().getResource("chromedriver.exe").getFile());
@@ -53,7 +61,7 @@ public class TestBase {
         System.setProperty
                 ("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         //}
 
         driver.manage().window().maximize();
