@@ -75,6 +75,7 @@ public class Register extends TestBase {
         passconf.sendKeys("password");
         registerButton.click();
         System.out.println(driver.getCurrentUrl());
+        System.out.println(driver.findElement(By.xpath("//span[@id = 'customer.username.errors']")).getText());
         return driver.findElement(By.xpath("//h1")).getText();
 
     }
