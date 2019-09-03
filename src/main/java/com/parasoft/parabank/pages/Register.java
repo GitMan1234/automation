@@ -70,7 +70,7 @@ public class Register extends TestBase {
         zip.sendKeys("dbfksdjbf");
         phone.sendKeys("011 1131 3131");
         ssn.sendKeys("1312313131");
-        username.sendKeys("navsf235");
+        username.sendKeys("nf235");
         pass.sendKeys("password");
         passconf.sendKeys("password");
         registerButton.click();

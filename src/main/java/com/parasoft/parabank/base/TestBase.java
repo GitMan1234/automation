@@ -52,14 +52,14 @@ public class TestBase {
 
 
         File file = new File(
-                getClass().getClassLoader().getResource("chromedriver.exe").getFile());
+                getClass().getClassLoader().getResource("chromedriver").getFile());
 
 
         // String browserName = prop.getProperty("browser");
 
         //if (browserName.equalsIgnoreCase("chrome")) {
         System.setProperty
-                ("webdriver.chrome.driver", "/usr/bin/chromedriver");
+                ("webdriver.chrome.driver", file.toString());
 
         driver = new ChromeDriver(options);
         //}
